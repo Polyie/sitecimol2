@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #521021;
+}
+
+
+
+@media only screen and (max-width : 899px) {
+
+    #logado{
+        margin-top: 8vw;
+        border-radius: 2vw;
+        width: 80%;
+        margin-left: 10%;
+        padding: 1vw;
+        float: left;
+        background-color: #FFAEC7;
+        text-align: center;
+        font-size: 6vw;
+    }
+
+    #bemvindo{
+        float: left;
+        width: 100%;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        text-align: center;
+        font-size: 8vw;
+    }
+
+
+    #area {
+        float: left;
+        margin-top: 15vw;
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 2vw;
+        background-color: #800827;
+        padding-top: 1vw;
+        padding-bottom: 10px;
+        border: 4px solid black;
+    }
+
+    input {
+        width: 85%;
+        margin-left: 7.5%;
+        border: 2px solid #888;
+        border-radius: 4px;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        padding: 0.5vw;
+        box-sizing: border-box;
+        font-size: 4vw;
+    }
+
+    label {
+        float: left;
+        width: 85%;
+        margin-left: 7.5%;
+        margin-top: 2vw;
+        text-align: left;
+        box-sizing: border-box;
+        font-size: 3.5vw;
+        color: #333;
+    }
+
+    #inpSubmit{
+        width: 40%;
+        margin-left: 30%;
+        border: 2px solid #888;
+        color: white;
+        background-color: #87364F;
+        border-radius: 1vw;
+        margin-top: 4vw;
+        margin-bottom: 1vw;
+        padding: 0.7vw;
+        box-sizing: border-box;
+        font-size: 4.5vw;
+    }
+
+    #mensagem {
+        width: 100%;
+        position: absolute;
+        top: 18vw;
+    }
+
+
+    #mensagem h1 {
+        text-align: center;
+        color: red;
+        font-size: 6vw;
+        font-family: Tahoma, Geneva, sans-serif;
+
+    }
+
+    #mensagem2 {
+        width: 100%;
+        position: absolute;
+        top: 6vw;
+    }
+
+
+    #mensagem2 h1 {
+        text-align: center;
+        color: red;
+        font-size: 6vw;
+        font-family: Tahoma, Geneva, sans-serif;
+
+    }
+
+    #titulo {
+        text-align: center;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 7vw;
+        color: black;
+    }
+
+    #topo {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 6vw;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 7vw;
+        color: white;
+    }
+
+    #deslogar {
+        width: 100%;
+        float: left;
+    }
+
+    #deslogar a {
+        margin-left: 45%;
+        float: left;
+        font-size: 3vw;
+    }
+
+    .textos {
+        float: left;
+        width: 100%;
+        font-size: 2.5vw;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+
+    #msg a{
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-size: 4vw;
+        text-decoration: none;
+        color: #555;
+        margin-top: 2vw;
+    }
+
+
+
+}
+
+@media only screen and (min-width : 900px) {
+
+
+    #logado{
+        margin-top: 8vw;
+        border-radius: 2vw;
+        width: 50%;
+        margin-left: 25%;
+        padding: 1vw;
+        float: left;
+        background-color: white;
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    #bemvindo{
+        float: left;
+        width: 100%;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        text-align: center;
+        font-size: 6vw;
+    }
+
+
+    #area {
+        float: left;
+        margin-top: 8vw;
+        width: 40%;
+        margin-left: 30%;
+        border-radius: 2vw;
+        background-color: white;
+        padding-top: 1vw;
+        padding-bottom: 10px;
+        border: 4px solid black;
+    }
+
+    input {
+        width: 85%;
+        margin-left: 7.5%;
+        border: 2px solid #888;
+        border-radius: 4px;
+        margin-top: 1vw;
+        margin-bottom: 0.2vw;
+        padding: 0.5vw;
+        box-sizing: border-box;
+        font-size: 3vw;
+    }
+
+    label {
+        float: left;
+        width: 85%;
+        margin-left: 7.5%;
+        margin-top: 2vw;
+        text-align: left;
+        box-sizing: border-box;
+        font-size: 3vw;
+        color: #333;
+    }
+
+    #inpSubmit{
+        width: 40%;
+        margin-left: 30%;
+        border: 2px solid #D1B5BC;
+        color: #6B5959;
+        background-color: #E3A9B8;
+        border-radius: 1vw;
+        margin-top: 3vw;
+        margin-bottom: 1vw;
+        padding: 0.7vw;
+        box-sizing: border-box;
+        font-size: 4vw;
+    }
+
+    #mensagem {
+        width: 100%;
+        position: absolute;
+        top: 8.5vw;
+    }
+
+
+    #mensagem h1 {
+        text-align: center;
+        color: #FF0051;
+        font-size: 3vw;
+        font-family: Tahoma, Geneva, sans-serif;
+
+    }
+
+    #mensagem2 {
+        width: 100%;
+        position: absolute;
+        top: 3vw;
+    }
+
+
+    #mensagem2 h1 {
+        text-align: center;
+        color: #FF0051;
+        font-size: 3vw;
+        font-family: Tahoma, Geneva, sans-serif;
+
+    }
+
+    #titulo {
+        text-align: center;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 4vw;
+        color: #A7848F;
+    }
+
+    #topo {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 2vw;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 4vw;
+        color: #A7848F;
+    }
+
+    #deslogar {
+        width: 100%;
+        float: left;
+    }
+
+    #deslogar a {
+        margin-left: 45%;
+        float: left;
+        font-size: 3vw;
+    }
+
+    .textos {
+        float: left;
+        width: 100%;
+        font-size: 2.5vw;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+
+    #msg a{
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-size: 2.7vw;
+        text-decoration: none;
+        color: #A7848F;
+        margin-top: 1vw;
+    }
+
+
+}
